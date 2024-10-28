@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #5468FF;
+}
+
+.try-free-btn {
+    background-color: #5468FF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    background: #F5F9FF;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+p {
+    margin: 20px 0;
+    font-size: 18px;
+
+}
+
+.cta-input {
+    display: flex;
+    margin-top: 20px;
+}
+
+.cta-input input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.cta-btn {
+    background-color: #5468FF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 400px;
+}
+
+
+
+
+
+
+
+.featured-services {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f9f9f9; /* Optional: Add background color */
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.service-card {
+    flex: 1 1 300px; /* Base width of 300px, responsive */
+    margin: 10px; /* Adjust margins for spacing */
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Add box-shadow transition */
+}
+
+.service-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.card-1 {
+    background-color: #5664ae; /* Blue */
+    color: #fff; /* White font color for the first card */
+}
+
+.card-2 {
+    background-color: #eaf0f9; /* Light Blue */
+    color: #000; /* Black font color for the second card */
+}
+
+.card-3 {
+    background-color: #fee9aa; /* Light Yellow */
+    color: #000; /* Black font color for the third card */
+}
+
+.service-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.task-management {
+    padding: 60px 0;
+    background-color: #F5F9FF;
+}
+
+.task-management-content {
+    display: flex;
+    align-items: center;
+}
+
+.task-image img {
+    width: 450px;
+}
+
+.task-info {
+    max-width: 50%;
+    padding-left: 20px;
+}
+
+.learn-more-btn {
+    background-color: #5468FF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.team-workflow {
+    padding: 60px 0;
+}
+
+.workflow-images img {
+   
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-avatars {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.user-avatars img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.image-1 {
+    position: relative;
+    z-index: 1;
+    transform: translateY(-60px); /* Moves the first image up */
+}
+
+.user-count {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4d75b5;
+    margin: 0 10px;
+}
+
+.image-2 {
+    position: relative;
+    z-index: 2;
+    transform: translateY(60px); /* Moves the second image down */
+}
+
+.testimonials h2 {
+    text-align: center; /* Centers the text horizontally */
+    margin-bottom: 20px; /* Adds some space below the heading */
+}
+
+.testimonials .container {
+    max-width: 1200px; /* Adjust as necessary for your layout */
+    margin: 0 auto; /* Centers the container */
+    padding: 20px; /* Optional: Adds padding */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #f8f9fa; /* or any background color you prefer */
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 800px; /* Adjust according to your layout needs */
+    margin: 0 auto;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+footer p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.footer-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds space between input and button */
+}
+
+.footer-input input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px; /* Adjust the width */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.footer-input button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-input button:hover {
+    background-color: #0056b3;
+}
+header {
+    background-color: #f8f9fa; /* Choose a background color */
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Adjust width according to your needs */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Add padding for spacing */
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+header .try-free-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header .try-free-btn:hover {
+    background-color: #0056b3;
+}
+.hero {
+   
+    padding: 80px 0; /* Adjust padding for spacing */
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between; /* Space out the two columns */
+    align-items: center; /* Align vertically */
+    max-width: 1200px; /* Adjust max width to fit your layout */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero .text-content {
+    flex: 0 0 50%; /* Take up 50% width */
+    padding-right: 20px; /* Add spacing between the columns */
+}
+
+.hero .hero-image {
+    flex: 0 0 50%; /* Take up 50% width */
+    text-align: right; /* Align the image to the right */
+}
+
+.hero .hero-image img {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto;
+}
+.task-management {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+.task-management .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.task-management .task-info {
+    flex: 0 0 50%;
+    padding-right: 20px;
+}
+
+.task-management .task-image {
+    flex: 0 0 50%;
+    text-align: right;
+}
+
+.task-management .task-image h2 {
+    text-align: left; /* Align the heading to the left within the image section */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.task-management .task-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+.team-workflow {
+   
+    padding: 80px 0;
+}
+
+.team-workflow .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.team-workflow .workflow-info {
+    flex: 0 0 50%; /* Text section takes up 50% */
+    padding-right: 20px; /* Add space between text and images */
+}
+
+.team-workflow .workflow-images {
+    flex: 0 0 50%; /* Image section takes up 50% */
+    text-align: right; /* Align images to the right */
+}
+
+.team-workflow .workflow-images img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+    margin-bottom: 10px; /* Add space between images if needed */
+}
+
+
+
+
+
+.social-media-icons {
+
+    display: flex; /* Arrange icons in a row */
+    justify-content: flex-start; /* Align icons to the left */
+}
+
+.social-media-icons a {
+    margin: 0 10px 0 0; /* Space to the right of each icon */
+}
+
+.social-media-icons img {
+   
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s; /* Add a hover effect */
+	margin-right: 40px;
+}
+
+.social-media-icons img:hover {
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Use more width on smaller screens */
+    }
+
+    header {
+        flex-direction: column; /* Stack logo and button vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .hero {
+        flex-direction: column; /* Stack text and image vertically */
+        padding: 40px 0; /* Reduce padding */
+    }
+
+    .hero-content {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center align on small screens */
+        text-align: center; /* Center align text */
+    }
+
+    .text-content {
+        max-width: 100%; /* Full width on mobile */
+        padding-right: 0; /* Remove right padding */
+    }
+
+    .hero-image {
+        max-width: 100%; /* Ensure images are responsive */
+    }
+
+    .featured-services .service-cards {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center align cards */
+    }
+
+    .service-card {
+        width: 80%; /* Use more width for service cards */
+        margin-bottom: 20px; /* Add space between cards */
+    }
+
+    .task-management {
+        flex-direction: column; /* Stack task management section */
+        padding: 40px 0; /* Reduce padding */
+    }
+
+    .task-management-content {
+        flex-direction: column; /* Stack text and image */
+        align-items: center; /* Center align content */
+        text-align: center; /* Center align text */
+    }
+
+    .team-workflow {
+        flex-direction: column; /* Stack workflow section */
+        padding: 40px 0; /* Reduce padding */
+    }
+
+    .workflow-info {
+        max-width: 100%; /* Full width on mobile */
+        padding-right: 0; /* Remove right padding */
+    }
+
+    .footer-input {
+        flex-direction: column; /* Stack input and button vertically */
+        align-items: center; /* Center align */
+    }
+
+    .footer-input input {
+        width: 100%; /* Full width on mobile */
+        margin-bottom: 10px; /* Add space between input and button */
+    }
+}
